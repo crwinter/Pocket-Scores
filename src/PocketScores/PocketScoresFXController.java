@@ -47,6 +47,23 @@ public class PocketScoresFXController implements Initializable {
         catch (Exception e) {
             e.printStackTrace();
         }
-    }    
+    }
+
+    @FXML
+    public Button back;
+    
+    @FXML
+    private void goBack(ActionEvent event){
+        try{
+            Stage stage = (Stage) back.getScene().getWindow();
+            stage.close();
+            Parent root = FXMLLoader.load(getClass().getClassLoader().getResource("PocketScoresFXML.fxml"));
+            stage.setScene(new Scene(root, 450, 450));
+            stage.show();
+        }
+        catch (Exception e){
+            e.printStackTrace();
+        }
+    }
     
 }

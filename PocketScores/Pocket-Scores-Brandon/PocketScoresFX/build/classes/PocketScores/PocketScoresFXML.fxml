@@ -29,12 +29,12 @@
          </font>
       </Label>
       <CardPane layoutX="170.0" layoutY="204.0" prefHeight="180.0" prefWidth="267.0">
-         <Button fx:id="NFL" mnemonicParsing="false" onAction="#goToNFL" prefHeight="46.0" prefWidth="243.0" style="-fx-background-color: black;" text="NFL">
+         <Button fx:id = "NFL" mnemonicParsing="false" prefHeight="46.0" prefWidth="243.0" style="-fx-background-color: black;" text="NFL" onAction = "#goToNFL">
             <font>
                <Font size="24.0" />
             </font>
          </Button>
-         <Button mnemonicParsing="false" prefHeight="46.0" prefWidth="243.0" style="-fx-background-color: black;" text="NBA">
+         <Button mnemonicParsing="false" prefHeight="46.0" prefWidth="252.0" style="-fx-background-color: black;" text="NBA">
             <font>
                <Font size="24.0" />
             </font>
@@ -44,7 +44,7 @@
                <Font size="24.0" />
             </font>
          </Button>
-         <Button mnemonicParsing="false" prefHeight="46.0" prefWidth="243.0" style="-fx-background-color: black;" text="MLS">
+         <Button mnemonicParsing="false" prefHeight="46.0" prefWidth="232.0" style="-fx-background-color: black;" text="MLS">
             <font>
                <Font size="24.0" />
             </font>

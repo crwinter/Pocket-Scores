@@ -29,7 +29,7 @@
          </font>
       </Label>
       <CardPane layoutX="170.0" layoutY="204.0" prefHeight="180.0" prefWidth="267.0">
-         <Button mnemonicParsing="false" prefHeight="46.0" prefWidth="243.0" style="-fx-background-color: black;" text="NFL">
+         <Button fx:id = "NFL" mnemonicParsing="false" prefHeight="46.0" prefWidth="243.0" style="-fx-background-color: black;" text="NFL" onAction = "#goToNFL">
             <font>
                <Font size="24.0" />
             </font>

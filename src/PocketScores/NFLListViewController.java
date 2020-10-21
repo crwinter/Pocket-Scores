@@ -14,7 +14,7 @@ import javafx.scene.control.Button;
 import javafx.scene.control.ComboBox;
 
 // Items for year comboBox
-@FXML private ComboBox comboBox;
+
 
 
 
@@ -27,7 +27,6 @@ public class NFLListViewController implements Initializable {
      */
     @Override
     public void initialize(URL location, ResourceBundle resources) {
-        comboBox.
     }
     
 

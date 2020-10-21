@@ -5,6 +5,7 @@
 <?import javafx.scene.control.ChoiceBox?>
 <?import javafx.scene.control.ComboBox?>
 <?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
@@ -30,5 +31,49 @@
          </font>
       </Text>
       <Button layoutY="368.0" minWidth="28.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="28.0" style="-fx-background-color: black;" text="&lt;-" />
+      <VBox alignment="CENTER" layoutX="158.0" layoutY="84.0" prefHeight="61.0" prefWidth="398.0" style="-fx-border-color: black;">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="V.S.">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+         </children>
+      </VBox>
+      <VBox alignment="CENTER" layoutX="40.0" layoutY="84.0" prefHeight="61.0" prefWidth="118.0" style="-fx-background-color: black;">
+         <children>
+            <Text fill="#f8f403" strokeType="OUTSIDE" strokeWidth="0.0" text="Day" />
+            <Text fill="#f8f403" strokeType="OUTSIDE" strokeWidth="0.0" text="DATE">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+            <Text fill="#ee7802" strokeType="OUTSIDE" strokeWidth="0.0" text="Game Time" />
+         </children>
+      </VBox>
+      <VBox alignment="CENTER" layoutX="219.0" layoutY="84.0" prefHeight="61.0" prefWidth="115.0">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Visitor" />
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Team Name">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="(# - #)" />
+         </children>
+      </VBox>
+      <VBox alignment="CENTER" layoutX="384.0" layoutY="84.0" prefHeight="61.0" prefWidth="115.0">
+         <children>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Home" />
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Team Name">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+            <Text strokeType="OUTSIDE" strokeWidth="0.0" text="(# - #)" />
+         </children>
+      </VBox>
+      <VBox layoutX="158.0" layoutY="85.0" prefHeight="59.0" prefWidth="63.0" />
+      <VBox layoutX="496.0" layoutY="84.0" prefHeight="61.0" prefWidth="63.0" />
    </children>
 </Pane>

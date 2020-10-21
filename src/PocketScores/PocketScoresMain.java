@@ -21,8 +21,8 @@ public class PocketScoresMain extends Application {
 
     //@Override
     @FXML
-    public void start(Stage stage) throws Exception {
-        Parent root = FXMLLoader.load(getClass().getClassLoader().getResource("PocketScoresFXML.fxml"));
+  public void start(Stage stage) throws Exception {
+        Parent root = FXMLLoader.load(getClass().getClassLoader().getResource("StartupView.fxml"));
         stage.setScene(new Scene(root, 450, 450));
         stage.show();
     }

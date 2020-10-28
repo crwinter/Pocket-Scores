@@ -28,5 +28,3 @@ public class PocketScoresMain extends Application {
     }
     
 }
-
-

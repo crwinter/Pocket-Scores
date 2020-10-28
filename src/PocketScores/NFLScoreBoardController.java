@@ -14,7 +14,7 @@ import javafx.fxml.Initializable;
  *
  * @author brandonbanner
  */
-public class NFLListViewController implements Initializable {
+public class NFLScoreBoardController implements Initializable {
 
     /**
      * Initializes the controller class.

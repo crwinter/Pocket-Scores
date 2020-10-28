@@ -7,6 +7,8 @@ package PocketScores;
 
 import java.net.URL;
 import java.util.ResourceBundle;
+import javafx.event.ActionEvent;
+import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 
 /**
@@ -14,7 +16,7 @@ import javafx.fxml.Initializable;
  *
  * @author brandonbanner
  */
-public class NFLListViewController implements Initializable {
+public class StartupViewController implements Initializable {
 
     /**
      * Initializes the controller class.
@@ -23,5 +25,9 @@ public class NFLListViewController implements Initializable {
     public void initialize(URL url, ResourceBundle rb) {
         // TODO
     }    
+
+    @FXML
+    private void handleNFLButton(ActionEvent event) {
+    }
     
 }

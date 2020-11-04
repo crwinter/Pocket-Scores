@@ -1,7 +1,5 @@
-/*
- * Empty Stylesheet file.
- */
 
-.mainFxmlClass {
-
+.styleBody {
+-fx-background-image:url("angryimg.jpg");
+-fx-background-size: 100% 100%;
 }
